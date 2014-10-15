@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name = "struts"   extends = "struts-default">
+    	<action name = "detail" class = "action.DetailInfo">
+			<result name = "success">/detailinfo.jsp</result>
+		</action>
+		<!-- 当点击详细信息时，调用DetailInfo.class以及显示detailinfo.jsp -->
+		
+		<action name = "Get" class = "action.GetBook">
+			<result name = "success">/result.jsp</result>
+		</action>
+		<!-- 当搜寻详细信息时，调用GetBook.class并显示result.jsp -->
+		
+		<action name = "detele" class = "action.DetelBook">
+			<result name = "success">/hello.jsp</result>
+		</action>
+		<!-- 当执行删除操作时，调用DetelBook.class和显示hello.jsp -->
+	</package>
+
+</struts>
