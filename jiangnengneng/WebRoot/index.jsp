@@ -20,6 +20,7 @@
 	   <input type="image" src="k.jpg" onmousemove="this.src='k.jpg'" onmouseout="this.src='k.jpg'" />
     </h2>
     <img src="gif.gif">
+	<!--I write some new words-->
     
     
     </form> 

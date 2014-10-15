@@ -8,5 +8,6 @@
 </head>
 <body>
 <%=request.getParameter("name")%>
+<!--This is the new content-->
 </body>
 </html>
